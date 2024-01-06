@@ -20,7 +20,7 @@ k=st.number_input('Enter Potassium:')
 t=st.number_input('Enter Temperature:')
 h=st.number_input('Enter Humidity:')
 ph=st.number_input('Enter pH:')
-R=st.number_input('Enter Rainfall:')
+r=st.number_input('Enter Rainfall:')
 
 if st.button('Recommend Crop'):
     data=[[n,p,k,t,h,ph,r]]
